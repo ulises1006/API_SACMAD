@@ -22,6 +22,7 @@ class Lineas extends REST_Controller {
 
   public function index_get(){
 
+
       $query = $this->db->query('SELECT * FROM `lineas`');
 
       $respuesta = array(
